@@ -96,7 +96,7 @@ $(function () {
     function submit() {
         // 接口返回成功 以下不执行，提交失败执行
         console.log('提交的数据',$("#papersFrom").serialize())
-        var flag = true; //接口返回的状态，成功 or 失败
+        var flag = false; //接口返回的状态，成功 or 失败
         if(flag){
             $('.pop-box .info-box').removeClass('fail')
             $('.pop-box h5').text('提交成功')
@@ -104,7 +104,7 @@ $(function () {
         }else{
             $('.pop-box .info-box').addClass('fail')
             $('.pop-box h5').text('提交失败')
-            $('.pop-box p').text('请重新提交！')
+            $('.pop-box p').text('感谢您宝贵时间，或许您可以再提交一次')
         }
         $('.pop-box').removeClass('hide')
         
