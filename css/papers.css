@@ -18,6 +18,7 @@
     padding: 1rem .5rem 0 .43rem;
     color: #483d0a;
     min-height: 7.7rem;
+    height: calc(100% - 4rem);
 }
 
 .papers-box .type-box {
@@ -35,7 +36,11 @@
     border-top-right-radius: .4rem;
     border-bottom-right-radius: .4rem;
 }
-
+#papersFrom{
+    height: calc(100% - .5rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 .papers-box .type-box .page {
     font-size: .28rem;
     font-weight: bold;
