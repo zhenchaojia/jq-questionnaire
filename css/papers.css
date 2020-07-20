@@ -1,6 +1,6 @@
 .papers-warp {
     height: 100%;
-    background: #5bb7ff url('../img/start_bg.png') no-repeat top left;
+    background: #5bb7ff url('../img/papers_bg.png') no-repeat top left;
     background-size: 100%;
     padding-top: 1.65rem;
 }
@@ -16,7 +16,7 @@
     width: 6.9rem;
     margin: 0 auto;
     padding: 1rem .5rem 0 .43rem;
-    color: #303133;
+    color: #483d0a;
     min-height: 7.7rem;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .subject-box .title {
-    font-size: .28rem;
+    font-size: .3rem;
     font-weight: bold;
     line-height: .4rem;
     padding-bottom: .3rem;
@@ -59,11 +59,13 @@
 
 .subject-box label {
     height: .72rem;
+    width: 20%;
 }
 
 .subject-box label i {
-    font-size: .26rem;
+    font-size: .28rem;
     font-style: normal;
+    line-height: 1.1;
 }
 
 .subject-box input {
@@ -81,6 +83,7 @@
 
 .subject-box .chiled-label .label-box {
     padding-bottom: .3rem;
+    flex-wrap: wrap;
 }
 
 .subject-box textarea {
@@ -93,7 +96,7 @@
 }
 
 .papers-warp .btn {
-    font-size: .34rem;
+    font-size: .36rem;
     width: 6.6rem;
     height: 1.05rem;
     line-height: 1rem;
@@ -105,7 +108,9 @@
 }
 
 .papers-warp .btn.last {
-    background-color: #f3cc12;
+    color: #483d0a;
+    background: url('../img/btn.png') no-repeat;
+    background-size: 100%;
 }
 
 /* 弹窗 */
@@ -125,22 +130,25 @@
     width: 6.45rem;
     height: 6.3rem;
     transform: translate(-50%, -50%);
-    background: url('../img/pop_bg.png') no-repeat;
+    background: url('../img/pop_bg_ok.png') no-repeat;
     background-size: 100% 100%;
     padding-top: 2.6rem;
+}
+.pop-box .info-box.fail{
+    background-image: url('../img/pop_bg_fail.png');
 }
 
 .pop-box .info-box h5 {
     line-height: .9rem;
     height: .9rem;
     font-weight: bold;
-    color: #303133;
+    color: #483d0a;
 }
 
 .pop-box .info-box p {
     line-height: 1;
     margin-bottom: .8rem;
-    color: #303133;
+    color: #483d0a;
 }
 
 .pop-box .info-box .sure-btn {
