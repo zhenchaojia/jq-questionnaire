@@ -1,0 +1,153 @@
+.papers-warp {
+    height: 100%;
+    background: #5bb7ff url('../img/start_bg.png') no-repeat top left;
+    background-size: 100%;
+    padding-top: 1.65rem;
+}
+
+.papers-warp .tit {
+    font-size: .42rem;
+    line-height: 1;
+    margin-bottom: .6rem;
+    font-weight: bold;
+}
+
+.papers-box {
+    width: 6.9rem;
+    margin: 0 auto;
+    padding: 1rem .5rem 0 .43rem;
+    color: #303133;
+    min-height: 7.7rem;
+}
+
+.papers-box .type-box {
+    top: .22rem;
+    left: 0;
+    width: 6.5rem;
+}
+
+.papers-box .type-box .type {
+    line-height: 0.4rem;
+    padding: 0 .14rem 0 .1rem;
+    background: #f39800;
+    font-size: .24rem;
+    color: #fff;
+    border-top-right-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+}
+
+.papers-box .type-box .page {
+    font-size: .28rem;
+    font-weight: bold;
+}
+
+.papers-box .type-box .page span {
+    font-size: .22rem;
+    font-weight: normal;
+}
+
+.papers-box .type-box .page i {
+    font-style: normal;
+}
+
+.subject-box .title {
+    font-size: .28rem;
+    font-weight: bold;
+    line-height: .4rem;
+    padding-bottom: .3rem;
+}
+
+.subject-box label {
+    height: .72rem;
+}
+
+.subject-box label i {
+    font-size: .26rem;
+    font-style: normal;
+}
+
+.subject-box input {
+    font-size: .26rem;
+    margin-right: .2rem;
+    width: .32rem;
+    height: 0.32rem;
+    vertical-align: middle;
+    /* vertical-align: sub; */
+}
+
+.subject-box .chiled-label .name {
+    padding-bottom: .3rem;
+}
+
+.subject-box .chiled-label .label-box {
+    padding-bottom: .3rem;
+}
+
+.subject-box textarea {
+    border: .02rem solid #e2e4e9;
+    width: 100%;
+    height: 3.68rem;
+    resize: none;
+    outline: none;
+    font-size: .28rem;
+}
+
+.papers-warp .btn {
+    font-size: .34rem;
+    width: 6.6rem;
+    height: 1.05rem;
+    line-height: 1rem;
+    bottom: .58rem;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    background-color: #83c9ff;
+}
+
+.papers-warp .btn.last {
+    background-color: #f3cc12;
+}
+
+/* 弹窗 */
+.pop-box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+.pop-box .info-box {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    width: 6.45rem;
+    height: 6.3rem;
+    transform: translate(-50%, -50%);
+    background: url('../img/pop_bg.png') no-repeat;
+    background-size: 100% 100%;
+    padding-top: 2.6rem;
+}
+
+.pop-box .info-box h5 {
+    line-height: .9rem;
+    height: .9rem;
+    font-weight: bold;
+    color: #303133;
+}
+
+.pop-box .info-box p {
+    line-height: 1;
+    margin-bottom: .8rem;
+    color: #303133;
+}
+
+.pop-box .info-box .sure-btn {
+    width: 4.62rem;
+    line-height: 0.95rem;
+    height: 0.95rem;
+    margin: 0 auto;
+    background: #5ab5ff;
+    border-radius: .05rem;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <script src="./js/rem.js"></script>
+    <title>调研问卷</title>
+    <style>
+        .start-warp {
+            height: 100%;
+            background: #5bb7ff url('./img/start_bg.png') no-repeat top left;
+            background-size: 100%;
+            padding-top: 1.65rem;
+        }
+
+        .start-warp .tit {
+            font-size: .42rem;
+            line-height: 1;
+            margin-bottom: .3rem;
+            font-weight: bold;
+        }
+
+        .start-warp .txt {
+            font-size: 0.3rem;
+            line-height: .5rem;
+        }
+
+        .start-btn {
+            font-size: .34rem;
+            color: #483d0a;
+            width: 6.6rem;
+            height: 1.05rem;
+            line-height: 1rem;
+            bottom: .58rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f3cc12;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="start-warp al-c pos-r">
+        <h3 class="tit">魔百和空中课堂调研问卷</h3>
+        <p class="txt">感谢您能抽出几分钟时间来参加本次答题，</p>
+        <p class="txt">现在我们马上开始吧</p>
+        <div class="start-btn pos-a">立即开始</div>
+    </div>
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function(){
+            $('.start-btn').on('click',function(){
+                location.href = './papers.html'
+            })
+        })
+
+    </script>
+</body>
+
+</html>
