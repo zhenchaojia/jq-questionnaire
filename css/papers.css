@@ -59,6 +59,8 @@
 
 .subject-box label {
     height: .72rem;
+}
+.subject-box label.grade{
     width: 20%;
 }
 

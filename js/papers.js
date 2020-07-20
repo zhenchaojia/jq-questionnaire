@@ -162,7 +162,7 @@ $(function () {
             function getChildOption(obj) {
                 var _optinChildstr = '';
                 for (var i = 0; i < obj.val; i++) {
-                    _optinChildstr += '<label class="dis-f"><input type="radio" name="' + obj.id + '"  value="' + (i + 1) + '" /><i class="flex-1">' + (i + 1) + '</i></label>'
+                    _optinChildstr += '<label class="dis-f grade"><input type="radio" name="' + obj.id + '"  value="' + (i + 1) + '" /><i class="flex-1">' + (i + 1) + '</i></label>'
                 }
                 return _optinChildstr
             }
